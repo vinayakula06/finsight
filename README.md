@@ -1,8 +1,8 @@
 # FinSight - AI-Powered Financial Intelligence Platform
 
-[![BuildBharat Through AI Hackathon](https://img.shields.io/badge/Hackathon-BuildBharat_Through_AI-blueviolet)](https://example.com/buildbharat)
-[![Prize Money](https://img.shields.io/badge/Prize-₹5000-gold)](https://example.com/prize)
-[![A-Hub Support](https://img.shields.io/badge/Investment_Support-A--Hub-brightgreen)](https://example.com/a-hub)
+[![BuildBharat Through AI Hackathon](https://img.shields.io/badge/Hackathon-BuildBharat_Through_AI-blueviolet)](https://buildbharatthroughai.in/)
+[![Prize Money](https://img.shields.io/badge/Prize-₹5000-gold)]
+[![A-Hub Support](https://img.shields.io/badge/Investment_Support-A--Hub-brightgreen)](https://www.a-hub.co/)
 
 FinSight is an all-in-one, AI-powered financial intelligence platform designed to empower investors with comprehensive tools and insights. It seamlessly integrates portfolio management, stock analysis, trading tools, and an intelligent AI assistant to provide users with a holistic financial experience.
 
