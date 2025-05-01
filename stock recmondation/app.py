@@ -25,7 +25,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # --- Directly assigning your Gemini API key ---
 # WARNING: Hardcoding API keys is a security risk. Consider using environment variables
 # or a secret management system in production.
-GEMINI_API_KEY = "AIzaSyCdXSnAiUrfA1Eas4DPMppGvFbFbL1PSvY" # Replace with your actual key if testing
+GEMINI_API_KEY = "" # Replace with your actual key if testing
 # ---------------------------------------------
 
 # --- LangChain LLM and Agent Initialization ---
