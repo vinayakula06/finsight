@@ -186,3 +186,12 @@ We welcome contributions to FinSight! If you'd like to contribute, please follow
 2.  Create a new branch for your feature or bug fix.
 3.  Make your changes and commit them with clear, descriptive commit messages.
 4.  Submit a pull request.
+
+![projectimg2](https://github.com/user-attachments/assets/e79a4e9e-677b-4568-b85b-ef134268f69b)
+
+![projectimg1](https://github.com/user-attachments/assets/1274bc31-0f5a-4c21-8361-0b8eda211b1a)
+
+![projectimg4](https://github.com/user-attachments/assets/538537fb-7b34-4be5-9b67-bbc34b41d3c9)
+
+![projectimg3](https://github.com/user-attachments/assets/0fde4991-3c81-43a6-98b1-9367a8c60651)
+
