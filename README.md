@@ -35,7 +35,6 @@
 * Airtable (Database for calling agent)
 * HTML/CSS/JavaScript (Likely for web interfaces)
 
-*(...and other relevant libraries - see package.json or requirements.txt for a full list)*
 
 ##   Team
 
