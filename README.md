@@ -4,9 +4,7 @@
 [![Prize Money](https://img.shields.io/badge/Prize-₹5000-gold)]
 [![A-Hub Support](https://img.shields.io/badge/Investment_Support-A--Hub-brightgreen)](https://www.a-hub.co/)
 
-FinSight is an all-in-one, AI-powered financial intelligence platform designed to empower investors with comprehensive tools and insights. It seamlessly integrates portfolio management, stock analysis, trading tools, and an intelligent AI assistant to provide users with a holistic financial experience.
-
-## Features
+##   Features
 
 * **Portfolio Management:** Effortlessly track and manage your investment portfolio with real-time valuations and performance analysis.
 * **Stock Analysis:** Leverage AI-driven analysis to gain deep insights into stock trends, predictions, and investment opportunities.
@@ -14,8 +12,9 @@ FinSight is an all-in-one, AI-powered financial intelligence platform designed t
 * **Intelligent AI Assistant:** Get personalized financial advice and support from our AI assistant, answering your queries and providing data-driven recommendations.
 * **Market News & Analysis:** Stay informed with fetched and analyzed market news, including AI-driven summaries and sentiment analysis.
 * **Smart Stock Recommender:** Receive personalized stock recommendations based on your investment goals, risk tolerance, and other preferences.
+* **AI-Based Calling Agent:** Proactive AI-powered voice assistant for personalized user engagement and support, offering financial assistance and platform guidance.
 
-## Tech Stack
+##   Tech Stack
 
 * TensorFlow
 * Next.js 14 (Frontend)
@@ -26,14 +25,19 @@ FinSight is an all-in-one, AI-powered financial intelligence platform designed t
 * Headless UI (for accessible components - Frontend)
 * Python (Backend)
 * Flask (Backend)
-* LangChain (Backend - AI Agent)
-* Hugging Face Transformers (Backend - NLP)
-* MarketAux API (Data Source)
+* LangChain (Backend - AI Agent for stock recommendations)
+* Hugging Face Transformers (Backend - NLP for news analysis)
+* MarketAux API (Data Source for news)
 * PyTorch (Backend - Stock Prediction Model)
+* Vapi.ai (Voice AI)
+* OpenAI gpt-4o (LLM for calling agent)
+* n8n (Workflow Automation)
+* Airtable (Database for calling agent)
+* HTML/CSS/JavaScript (Likely for web interfaces)
 
 *(...and other relevant libraries - see package.json or requirements.txt for a full list)*
 
-## Team
+##   Team
 
 * **AlgoXplorers**
 
@@ -42,13 +46,13 @@ FinSight is an all-in-one, AI-powered financial intelligence platform designed t
     * Sameer
     * Nithin
 
-## Achievements
+##   Achievements
 
 * Secured a position in the **Top 5** out of approximately 550 members (110 teams) in the **BuildBharat Through AI** hackathon.
 * Awarded **₹5,000** in prize money.
 * Received investment support from **A-Hub**.
 
-## Getting Started
+##   Getting Started
 
 To run FinSight locally, follow these steps:
 
@@ -120,7 +124,7 @@ To run FinSight locally, follow these steps:
 
 5.  **Access FinSight in your browser.**
 
-## Key Components and Usage
+##   Key Components and Usage
 
 ###   Finance App (Next.js Frontend)
 
@@ -152,7 +156,30 @@ To run FinSight locally, follow these steps:
     * A search form enables users to find and analyze news related to specific topics or ticker symbols.
     * Results are shown with the original news information, AI-generated summaries, and sentiment analysis results.
 
-## Contribution
+###   AI-Based Calling Agent
+
+* This component adds a proactive voice interaction capability to FinSight.
+* **Objective:** To enhance user engagement by providing personalized support and guidance through AI-powered phone calls.
+* **Description:** The FinSight AI Assistant calls users who have recently visited the platform to offer assistance with navigation, financial planning, and investment decisions.
+* **Key Components:**
+    1.  **User Interaction:** Call scheduling via the FinSight web interface.
+    2.  **Workflow Automation (n8n):** Automated workflow to manage user data and trigger calls.
+    3.  **Data Management (Airtable):** Airtable database for storing user contact information.
+    4.  **Voice AI Platform (Vapi):** Vapi.ai handles call initiation and conversation flow.
+    5.  **Conversational Intelligence (OpenAI):** OpenAI's gpt-4o model powers the AI Assistant's conversational abilities and financial knowledge.
+* **Technologies Used:**
+    * Voice AI: Vapi.ai
+    * LLM: OpenAI gpt-4o
+    * Workflow Automation: n8n
+    * Database: Airtable
+    * Frontend: HTML/CSS/JavaScript (likely)
+    * Backend: Python/Flask (likely)
+* **Highlights:**
+    * Integration of multiple APIs and platforms for a seamless calling workflow.
+    * Development of an AI persona with specific financial expertise.
+    * Application of AI for proactive user support.
+
+##   Contribution
 
 We welcome contributions to FinSight! If you'd like to contribute, please follow these steps:
 
@@ -160,4 +187,3 @@ We welcome contributions to FinSight! If you'd like to contribute, please follow
 2.  Create a new branch for your feature or bug fix.
 3.  Make your changes and commit them with clear, descriptive commit messages.
 4.  Submit a pull request.
-
