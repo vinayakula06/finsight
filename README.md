@@ -196,7 +196,5 @@ We welcome contributions to FinSight! If you'd like to contribute, please follow
 
 ![projectimg3](https://github.com/user-attachments/assets/0fde4991-3c81-43a6-98b1-9367a8c60651)
 
-![img1](https://github.com/user-attachments/assets/bccabece-2364-4a70-99ec-46662205b910)
 
-![img3](https://github.com/user-attachments/assets/a9e5c5ec-78cb-4ae4-99e4-90422336efdc)
 
