@@ -51,77 +51,7 @@
 * Awarded **₹5,000** in prize money.
 * Received investment support from **A-Hub**.
 
-##   Getting Started
-
-To run FinSight locally, follow these steps:
-
-1.  **Clone the repository:**
-
-    ```bash
-    git clone <repository_url>  # Replace <repository_url> with your repo URL
-    cd FinSight
-    ```
-
-2.  **Install dependencies:**
-
-    * For the Next.js frontend:
-
-        ```bash
-        cd finance-app
-        npm install
-        ```
-
-    * For the Python backend:
-
-        ```bash
-        cd stock\ recmondation  # Or market\ analysis for the news tool
-        pip install -r requirements.txt  # If you have a requirements.txt
-        ```
-
-3.  **Set up environment variables:**
-
-    * You'll need to configure API keys and other environment variables. Create `.env` files as needed.
-
-    * Example for `finance-app/.env`:
-
-        ```
-        NEXT_PUBLIC_FINNHUB_API_KEY=YOUR_FINNHUB_KEY
-        NEXT_PUBLIC_ALPHA_VANTAGE_API_KEY=YOUR_ALPHA_VANTAGE_API_KEY
-        ```
-
-    * Example for `stock recmondation/.env` (or the news tool's directory):
-
-        ```
-        GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-        MARKETAUX_API_KEY=YOUR_MARKETAUX_API_KEY
-        ```
-
-    * **IMPORTANT:** Never commit API keys directly to your repository!
-
-4.  **Run the applications:**
-
-    * For the Next.js frontend:
-
-        ```bash
-        cd finance-app
-        npm run dev
-        ```
-
-    * For the Python backend (stock recommender):
-
-        ```bash
-        cd stock\ recmondation
-        python app.py  # Or flask run, etc.
-        ```
-
-    * For the Python backend (news & analysis tool):
-
-        ```bash
-        cd market\ analysis
-        python sapp.py
-        ```
-
-5.  **Access FinSight in your browser.**
+**Access FinSight in your browser.**
 
 ##   Key Components and Usage
 
@@ -178,14 +108,7 @@ To run FinSight locally, follow these steps:
     * Development of an AI persona with specific financial expertise.
     * Application of AI for proactive user support.
 
-##   Contribution
 
-We welcome contributions to FinSight! If you'd like to contribute, please follow these steps:
-
-1.  Fork the repository.
-2.  Create a new branch for your feature or bug fix.
-3.  Make your changes and commit them with clear, descriptive commit messages.
-4.  Submit a pull request.
 
 
 ![projectimg2](https://github.com/user-attachments/assets/e79a4e9e-677b-4568-b85b-ef134268f69b)
